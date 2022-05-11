@@ -5,7 +5,7 @@ import { Fade } from "react-reveal";
 
 function LandingPage() {
   return (
-    <Fade>
+    <Fade left>
       <div className="container">
         <div className="row">
           <div className="col-6" style={{ marginTop: 160 }}>
