@@ -1,0 +1,47 @@
+.title-hero {
+  font-weight: 800;
+  font-size: 80px;
+  width: 510px;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+  width: 480px;
+  height: 150px;
+  margin-top: 60px;
+}
+
+.hero-img {
+  margin-top: 20px;
+  width: 480px;
+  margin-left: 20px;
+}
+
+.subtitle {
+  font-size: 18px;
+  width: 420px;
+  letter-spacing: 1.2;
+  margin-top: 40px;
+}
+.button-cta {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  width: 160px;
+  padding: 10px;
+  margin-top: 40px;
+  border-radius: 12px;
+}
+.button-cta:hover {
+  background-color: white;
+  color: black;
+}
+
+@media;
