@@ -1,7 +1,7 @@
 import React from "react";
 import heroImg from "../../images/image-hero-desktop.png";
 import "./LandingPage.css";
-import { Fade } from "react-reveal";
+import Fade from "react-reveal/Fade";
 
 function LandingPage() {
   return (
@@ -42,13 +42,16 @@ function LandingPage() {
                 />
               </svg>
             </div>
-          </div>
+          </Fade>
+        </div>
+        <Fade right >
           <div className="col-5 right-section">
             <img className="hero-img" src={heroImg} alt="image-hero-desktop" />
           </div>
-        </div>
+        </Fade >
       </div>
-    </Fade>
+    </div>
+
   );
 }
 
